@@ -1,0 +1,21 @@
+#titulo-principal {
+    color: blue;
+    font-size: 25px;
+}
+
+#elemento1, #elemento2, #elemento3, #elemento4 {
+  border: 1px solid white;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: fit-content;
+  color: blue;
+}
+
+body {
+   background-color: black;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+}

@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(32, 31, 31);
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #1a1a1a;
+  padding: 30px;
+  width: 400px;
+  border-radius: 8px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.logo img {
+  height: 90px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.social-buttons a {
+  flex: 1;
+  text-align: center;
+  background-color: #2a2a2a;
+  margin: 0 5px;
+  padding: 12px 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-buttons img {
+  height: 20px;
+  width: 20px;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #2a2a2a;
+  border: 1px solid #383737;
+  color: white;
+  border-radius: 4px;
+}
+
+.checkbox {
+  margin: 10px 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.checkbox input {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.checkbox label {
+  font-size: 13px;
+  color: #ccc;
+}
+
+.checkbox a {
+  color: #00adee;
+  text-decoration: none;
+}
+
+.create-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #444;
+  border: none;
+  color: #696666;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: not-allowed;
+}
+
+.footer-links {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #070707;
+}
+

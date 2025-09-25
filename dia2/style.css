@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor{
+    background-color: red;
+    display: flex;
+    padding: 10px;
+}
+.caja{
+    background: blue;
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+}

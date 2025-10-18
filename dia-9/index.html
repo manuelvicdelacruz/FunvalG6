@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" id="todo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Document</title>
+  </head>
+  <body class="h-screen">
+    <header
+      class="h-[10%] bg-yellow-800 text-white flex items-center justify-center dark:bg-slate-900"
+    >
+      <button id="btn-dark" class="bg-green-900 p-3 rounded-2xl">
+        DARK MODE
+      </button>
+    </header>
+
+    <main class="h-[80%] md:flex md:flex-row-reverse">
+      <div
+        class="h-[80%] bg-orange-300 dark:bg-slate-500 dark:text-white md:w-[80%] md:h-full lg:w-[70%]"
+      >
+        CAJA 1
+      </div>
+      <div class="h-[20%] sm:flex md:flex-col md:h-full md:w-[20%] lg:w-[30%]">
+        <div
+          class="h-[50%] bg-blue-900 text-white dark:bg-slate-800 sm:h-full sm:w-[30%] md:w-full"
+        >
+          CAJA 2
+        </div>
+        <div
+          class="h-[50%] bg-pink-500 dark:bg-slate-700 dark:text-white sm:h-full sm:w-[70%] md:w-full"
+        >
+          CAJA 3
+        </div>
+      </div>
+    </main>
+
+    <footer class="h-[10%] bg-purple-400 dark:bg-slate-950 dark:text-white">
+      FOOTER
+    </footer>
+
+    <script>
+      let botoncito = document.querySelector("#btn-dark");
+      let todo = document.querySelector("#todo");
+      botoncito.addEventListener("click", function () {
+        todo.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>
